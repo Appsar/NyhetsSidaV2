@@ -1,0 +1,36 @@
+#nyhet-titel {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    border: 2px solid grey;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 25px;
+}
+
+.nyhet-container {
+    display: flex;
+    border: 2px solid red;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-top: 25px;
+}
+
+.nyhetsram-bild img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.nyhetsram-bild {
+    display: flex;
+    justify-content: center;
+}
+
+.nyhetram-text {
+    font-size: 1rem;
+    padding: 1rem 1rem;
+}

@@ -20,3 +20,25 @@
 #btn-login {
     font-size: clamp(1rem, 2.5vw, 1.5rem)
 }
+
+@media (max-width:475px) {
+
+    #btn-sub,
+    #btn-login {
+        padding: 5px;
+        margin-left: 0;
+
+    }
+
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+
+    nav ul {
+        gap: 0;
+    }
+
+}
