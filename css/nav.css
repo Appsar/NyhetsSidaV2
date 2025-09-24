@@ -1,0 +1,104 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 500px;
+    width: 100%;
+    background-color: var(--background-color);
+    border-bottom: 10px ridge var(--primary-color);
+    gap: 2rem;
+    background-color: #111D4A;
+}
+
+
+#linksA a {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+
+
+}
+
+#links a:hover {
+    text-decoration: underline;
+}
+
+svg {
+    min-width: 80px;
+}
+
+
+
+/* Hamburgare Meny */
+
+header>nav>#linksA {
+    display: none;
+}
+
+header>nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+details>#links {
+    position: absolute;
+    width: fit-content;
+    padding: 1rem;
+    display: flex;
+    background: white;
+}
+
+details>#links>ul {
+    display: flex;
+    flex-direction: column;
+}
+
+details a {
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+}
+
+details a:hover {
+    text-decoration: underline;
+
+}
+
+details summary::marker {
+    content: "";
+}
+
+details .open {
+    display: none;
+}
+
+details[open] .open {
+    display: inline;
+}
+
+details .closed {
+    display: inline;
+}
+
+details[open] .closed {
+    display: none;
+}
+
+
+@media (min-width: 1125px) {
+    header>nav>#linksA {
+        display: block;
+    }
+
+    #hamburger {
+        display: none;
+    }
+}

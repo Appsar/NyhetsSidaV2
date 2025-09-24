@@ -1,0 +1,22 @@
+#btn-sub {
+    margin-left: auto;
+    background-color: var(--primary-color);
+    border-radius: 40px;
+    padding: 1rem 1rem;
+    border: none;
+}
+
+#btn-login {
+    margin-right: 1.5rem;
+    border-radius: 40px;
+    padding: 1rem 1rem;
+    border: none;
+    min-width: 95px;
+
+
+}
+
+#btn-sub,
+#btn-login {
+    font-size: clamp(1rem, 2.5vw, 1.5rem)
+}

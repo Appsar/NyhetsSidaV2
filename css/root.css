@@ -1,4 +1,19 @@
 :root {
-    --border: 1px solid rgb(207, 206, 204);
-    --border-bottom: 10px ridge rgb(255, 16, 16)
+    --border-color: #C8D3D5;
+
+    --background-color: #1E1E24;
+
+    --details-color: #547AA5;
+
+    --primary-color: #92140C;
+    --secondary-color: #256EFF;
+
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--background-color);
+    font-family: 'Noto Sans';
 }
