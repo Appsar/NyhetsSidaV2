@@ -1,3 +1,4 @@
+/* Nav bar */
 nav {
     display: flex;
     align-items: center;
@@ -20,13 +21,14 @@ nav {
 
 }
 
-#links a:hover {
+#linksA a:hover {
     text-decoration: underline;
 }
 
 svg {
-    width: clamp(40px, 5%, 100px);
+    width: clamp(40px, 100%, 100px);
 }
+
 
 
 
@@ -92,7 +94,7 @@ details[open] .closed {
     display: none;
 }
 
-
+/* Media querys */
 @media (min-width: 1125px) {
     header>nav>#linksA {
         display: block;
@@ -107,7 +109,10 @@ details[open] .closed {
 @media (max-width:475px) {
 
     nav {
-        gap: 0;
+        justify-content: space-around;
+        gap: 10px;
+        padding: 0;
+        min-width: 320px;
     }
 
 }

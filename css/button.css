@@ -26,19 +26,9 @@
     #btn-sub,
     #btn-login {
         padding: 5px;
-        margin-left: 0;
+        margin-right: 0;
 
-    }
 
-    nav {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 0;
-    }
-
-    nav ul {
-        gap: 0;
     }
 
 }

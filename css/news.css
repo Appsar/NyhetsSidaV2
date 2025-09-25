@@ -1,36 +1,68 @@
+/* Nyheter */
+
 #nyhet-titel {
     display: flex;
     align-items: center;
     justify-content: start;
-    border: 2px solid grey;
+    border: 2px solid var(--border-color);
     margin-right: 25%;
-    margin-left: 25%;
+    margin-left: 15%;
     margin-top: 25px;
 }
 
 .nyhet-container {
     display: flex;
-    border: 2px solid red;
     justify-content: center;
     flex-direction: column;
+    border: 1px solid var(--border-color);
+    border-bottom: 8px ridge var(--border-bottom);
     align-items: center;
     margin-right: 25%;
-    margin-left: 25%;
+    margin-left: 15%;
     margin-top: 25px;
 }
 
 .nyhetsram-bild img {
     width: 100%;
-    height: 100%;
+    height: 50%;
     object-fit: fill;
 }
 
 .nyhetsram-bild {
     display: flex;
+    width: 100%;
+    height: 100%;
     justify-content: center;
 }
 
 .nyhetram-text {
     font-size: 1rem;
     padding: 1rem 1rem;
+}
+
+/* Media query */
+
+@media (max-width:475px) {
+    .nyhet-container {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    #nyhet-titel {
+        margin-left: -2px;
+        margin-right: -2px;
+    }
+
+}
+
+@media (min-width:426px) and (max-width: 1125px) {
+    .nyhet-container {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    #nyhet-titel {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
 }

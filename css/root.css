@@ -1,11 +1,14 @@
-:root {
-    --border-color: #C8D3D5;
+/* Tema färger */
 
-    --background-color: #1E1E24;
+:root {
+    --border-bottom: #FF3131;
+    --border-color: #9DB5B2;
+
+    --background-color: #FFF8F0;
 
     --details-color: #547AA5;
 
-    --primary-color: #92140C;
+    --primary-color: #FF3131;
     --secondary-color: #256EFF;
 
 }
