@@ -16,6 +16,7 @@
     padding: 1rem 1rem;
     width: 100%;
     box-sizing: border-box;
+    color: white;
 }
 
 #latest-news>h2 {
@@ -41,7 +42,7 @@
     scrollbar-color: gray white;
     scrollbar-width: thin;
     height: 25rem;
-    border-bottom: 10px ridge var(--primary-color);
+    border-bottom: 10px ridge var(--border-bottom);
 }
 
 #most-read ul {
@@ -64,7 +65,6 @@
 #latest-news a:hover {
     text-decoration: underline;
 }
-
 
 
 /* Media query*/

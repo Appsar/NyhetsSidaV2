@@ -4,6 +4,7 @@
     border-radius: 40px;
     padding: 1rem 1rem;
     border: none;
+    color: white;
 }
 
 #btn-login {
@@ -18,16 +19,38 @@
 
 #btn-sub,
 #btn-login {
-    font-size: clamp(1rem, 2.5vw, 1.5rem)
+    font-size: clamp(1rem, 2.5vw, 1.5rem);
 }
 
+
+/* Mobile Version */
+
+#hamburger-sub {
+    font-size: 1.5rem;
+    background-color: var(--primary-color);
+    border: 0;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+#hamburger-login {
+    font-size: 1.5rem;
+    border: 2px solid var(--border-color);
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+#hamburger-sub:focus {
+    background-color: rgb(202, 16, 16);
+}
+
+
+/* Media query */
 @media (max-width:475px) {
 
     #btn-sub,
     #btn-login {
-        padding: 5px;
-        margin-right: 0;
-
+        display: none;
 
     }
 
