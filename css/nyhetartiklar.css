@@ -1,0 +1,38 @@
+#grid-container {
+    display: grid;
+    padding: 1rem;
+    justify-content: center;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, 20rem);
+}
+
+#nyhet-grid-item {
+    border: 1px solid var(--border-color);
+}
+
+#nyhet-grid-item:hover {
+    transform: scale(1.04);
+    transition: 0.5s;
+}
+
+#nyhet-grid-item a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h2 {
+    margin-left: 0.5rem;
+}
+
+p {
+    padding: 0.5rem;
+}

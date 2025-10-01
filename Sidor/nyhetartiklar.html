@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galna Nyheter</title>
+    <link rel="stylesheet" href="/css/button.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/nav.css">
+    <link rel="stylesheet" href="/css/news.css">
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/nyhetartiklar.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <svg id="news-logo" xmlns="http://www.w3.org/2000/svg" height="100px" viewBox="0 -960 960 960" width="100px"
+                fill="#C8D3D5">
+                <path
+                    d="M146.67-120q-27.5 0-47.09-19.58Q80-159.17 80-186.67V-840l67 67 66-67 67 67 67-67 66 67 67-67 67 67 66-67 67 67 67-67 66 67 67-67v653.33q0 27.5-19.58 47.09Q840.83-120 813.33-120H146.67Zm0-66.67h300v-266.66h-300v266.66Zm366.66 0h300v-100h-300v100Zm0-166.66h300v-100h-300v100ZM146.67-520h666.66v-120H146.67v120Z" />
+            </svg>
+            <label id="news-label" for="news-logo">Galna<br /> Nyheter</label>
+
+
+            <div id="linksA">
+                <ul>
+                    <li><a href="/Sidor/index.html">Start</a></li>
+                    <li><a href="/Sidor/nyhetartiklar.html">Nyhetsartiklar</a></li>
+                    <li><a href="#">Väder</a></li>
+                    <li><a href="#">Ekonomi</a></li>
+                </ul>
+            </div>
+
+            <details id="hamburger">
+                <summary>
+                    <svg class="closed" xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960"
+                        width="50px" fill="black">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                    </svg>
+                    <svg class="open" xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960"
+                        width="50px" fill="black">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg>
+                </summary>
+                <div id="links">
+                    <ul>
+                        <li><a href="/Sidor/index.html">Start</a></li>
+                        <li><a href="/Sidor/nyhetartiklar.html">Nyhetsartiklar</a></li>
+                        <li><a href="#">Väder</a></li>
+                        <li><a href="#">Ekonomi</a></li>
+                        <button id="hamburger-sub">Prenumenera</button>
+                        <button id="hamburger-login">Logga in</button>
+                    </ul>
+                </div>
+            </details>
+
+            <button id="btn-sub">Prenumenera</button>
+            <button id="btn-login">Logga in</button>
+
+
+        </nav>
+    </header>
+
+    <main>
+        <h1>Nyhetsartiklar</h1>
+        <div id="grid-container">
+            <div id="nyhet-grid-item">
+                <a href="#">
+                    <img width="100%"
+                        src="https://images.unsplash.com/photo-1495020689067-958852a7765e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV3c3xlbnwwfHwwfHx8MA%3D%3D" />
+                    <h2>Nyhet Titel</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita omnis possimus nemo quia
+                        perferendis iste debitis libero autem ab pariatur minima ea, reiciendis soluta eum minus
+                        laboriosam
+                        quaerat quasi nulla.</p>
+                </a>
+            </div>
+            <div id="nyhet-grid-item">
+                <a href="#">
+                    <img width="100%"
+                        src="https://images.unsplash.com/photo-1495020689067-958852a7765e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV3c3xlbnwwfHwwfHx8MA%3D%3D" />
+                    <h2>Nyhet Titel</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita omnis possimus nemo quia
+                        perferendis iste debitis libero autem ab pariatur minima ea, reiciendis soluta eum minus
+                        laboriosam
+                        quaerat quasi nulla.</p>
+                </a>
+            </div>
+            <div id="nyhet-grid-item">
+                <a href="#">
+                    <img width="100%"
+                        src="https://images.unsplash.com/photo-1495020689067-958852a7765e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV3c3xlbnwwfHwwfHx8MA%3D%3D" />
+                    <h2>Nyhet Titel</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita omnis possimus nemo quia
+                        perferendis iste debitis libero autem ab pariatur minima ea, reiciendis soluta eum minus
+                        laboriosam
+                        quaerat quasi nulla.</p>
+                </a>
+            </div>
+            <div id="nyhet-grid-item">
+                <a href="#">
+                    <img width="100%"
+                        src="https://images.unsplash.com/photo-1495020689067-958852a7765e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV3c3xlbnwwfHwwfHx8MA%3D%3D" />
+                    <h2>Nyhet Titel</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita omnis possimus nemo quia
+                        perferendis iste debitis libero autem ab pariatur minima ea, reiciendis soluta eum minus
+                        laboriosam
+                        quaerat quasi nulla.</p>
+                </a>
+            </div>
+            <div id="nyhet-grid-item">
+                <a href="#">
+                    <img width="100%"
+                        src="https://images.unsplash.com/photo-1495020689067-958852a7765e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV3c3xlbnwwfHwwfHx8MA%3D%3D" />
+                    <h2>Nyhet Titel</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita omnis possimus nemo quia
+                        perferendis iste debitis libero autem ab pariatur minima ea, reiciendis soluta eum minus
+                        laboriosam
+                        quaerat quasi nulla.</p>
+                </a>
+            </div>
+            <div id="nyhet-grid-item">
+                <a href="#">
+                    <img width="100%"
+                        src="https://images.unsplash.com/photo-1495020689067-958852a7765e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV3c3xlbnwwfHwwfHx8MA%3D%3D" />
+                    <h2>Nyhet Titel</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita omnis possimus nemo quia
+                        perferendis iste debitis libero autem ab pariatur minima ea, reiciendis soluta eum minus
+                        laboriosam
+                        quaerat quasi nulla.</p>
+                </a>
+            </div>
+            <div id="nyhet-grid-item">
+                <a href="#">
+                    <img width="100%"
+                        src="https://images.unsplash.com/photo-1495020689067-958852a7765e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV3c3xlbnwwfHwwfHx8MA%3D%3D" />
+                    <h2>Nyhet Titel</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita omnis possimus nemo quia
+                        perferendis iste debitis libero autem ab pariatur minima ea, reiciendis soluta eum minus
+                        laboriosam
+                        quaerat quasi nulla.</p>
+                </a>
+            </div>
+            <div id="nyhet-grid-item">
+                <a href="#">
+                    <img width="100%"
+                        src="https://images.unsplash.com/photo-1495020689067-958852a7765e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV3c3xlbnwwfHwwfHx8MA%3D%3D" />
+                    <h2>Nyhet Titel</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita omnis possimus nemo quia
+                        perferendis iste debitis libero autem ab pariatur minima ea, reiciendis soluta eum minus
+                        laboriosam
+                        quaerat quasi nulla.</p>
+                </a>
+            </div>
+            <div id="nyhet-grid-item">
+                <a href="#">
+                    <img width="100%"
+                        src="https://images.unsplash.com/photo-1495020689067-958852a7765e?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bmV3c3xlbnwwfHwwfHx8MA%3D%3D" />
+                    <h2>Nyhet Titel</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita omnis possimus nemo quia
+                        perferendis iste debitis libero autem ab pariatur minima ea, reiciendis soluta eum minus
+                        laboriosam
+                        quaerat quasi nulla.</p>
+                </a>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div>
+            <ul>Om oss
+                <li><a>Historia</a></li>
+                <li><a>Personal</a></li>
+                <li><a>FAQ</a></li>
+            </ul>
+            <ul>Kontakt
+                <li><a>GalnaNyheter@gmail.com</a></li>
+                <li><a>0101-010101</a></li>
+            </ul>
+            <ul>Social Media
+                <li><a>Instagram</a></li>
+                <li><a>YouTube</a></li>
+                <li><a>TikTok</a></li>
+                <li><a>Facebook</a></li>
+            </ul>
+        </div>
+
+    </footer>
+</body>

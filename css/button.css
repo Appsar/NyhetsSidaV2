@@ -13,13 +13,23 @@
     padding: 1rem 1rem;
     border: none;
     min-width: 95px;
+}
 
+#btn-sub:hover {
+    background-color: rgb(200, 0, 0);
+    cursor: pointer;
+}
 
+#btn-login:hover {
+    background-color: rgb(194, 194, 194);
+    cursor: pointer;
 }
 
 #btn-sub,
 #btn-login {
     font-size: clamp(1rem, 2.5vw, 1.5rem);
+    padding: clamp(0.5rem, 2.5vw, 1rem);
+
 }
 
 
@@ -46,7 +56,7 @@
 
 
 /* Media query */
-@media (max-width:475px) {
+@media (max-width:600px) {
 
     #btn-sub,
     #btn-login {
