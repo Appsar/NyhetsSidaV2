@@ -70,7 +70,8 @@
     </header>
 
     <main>
-        <h2>Väder</h2>
+        <h1>Väder</h1>
+        <h2>Dagens väder</h2>
         <div id="weather-scroll-container">
             <div class="weather-hour-item">
                 <span><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px"
@@ -180,15 +181,38 @@
 
         </div>
 
+        <h2 id="week-weather-h2">Veckans väder</h2>
         <div id="weather-week-container">
-            <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>3</li>
-                <li>4</li>
-                <li>5</li>
-                <li>6</li>
-                <li>7</li>
+            <ul id="day">
+                <label for="day">Dag</label>
+                <li>Måndag</li>
+                <li>Tisdag</li>
+                <li>Onsdag</li>
+                <li>Torsdag</li>
+                <li>Fredag</li>
+                <li>Lördag</li>
+                <li>Söndag</li>
+            </ul>
+            <ul id="degree">
+                <label for="degree">Temperatur</label>
+                <li>18*C</li>
+                <li>19*C</li>
+                <li>19*C</li>
+                <li>20*C</li>
+                <li>22*C</li>
+                <li>25*C</li>
+                <li>24*C</li>
+            </ul>
+            <ul id="place">
+                <label for="place">Plats</label>
+                <li>Göteborg</li>
+                <li>Göteborg</li>
+                <li>Göteborg</li>
+                <li>Göteborg</li>
+                <li>Göteborg</li>
+                <li>Göteborg</li>
+                <li>Göteborg</li>
+
             </ul>
         </div>
     </main>

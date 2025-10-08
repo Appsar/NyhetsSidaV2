@@ -1,4 +1,4 @@
-h2 {
+h1 {
     display: flex;
     justify-content: center;
     font-size: 3rem;
@@ -7,6 +7,13 @@ h2 {
     margin-top: 25px;
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 5%;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
 }
 
 #weather-scroll-container {
@@ -16,7 +23,7 @@ h2 {
     gap: 1rem;
     margin-left: 10%;
     margin-right: 10%;
-    border: 2px solid black;
+    border: 2px solid var(--border-color);
     padding: 0.5rem;
     scrollbar-width: thin;
 }
@@ -32,7 +39,7 @@ h2 {
     justify-content: space-around;
     font-size: 2rem;
     font-weight: 500;
-
+    background-color: rgb(255, 237, 237);
 }
 
 span {
@@ -49,5 +56,57 @@ span {
 
 #weather-week-container {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    margin-top: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#weather-week-container>ul {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+label {
+    font-size: clamp(1rem, 2.5vw, 3rem);
+    font-weight: 600;
+}
+
+#weather-week-container>ul>li {
+    list-style: none;
+    margin: 1rem 3rem 0 0;
+    font-size: clamp(1rem, 2.5vw, 2rem);
+    padding: 0;
+}
+
+@media (min-width:320px) and (max-width: 1125px) {
+
+    #weather-week-container>ul {
+        margin: 0;
+        padding: 5px;
+    }
+
+    #weather-week-container>ul>li {
+        margin: 2px;
+        padding: 0;
+    }
+
+    #weather-week-container {
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
+    #weather-scroll-container {
+        grid-template-columns: auto;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+
 }
